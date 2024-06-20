@@ -15,7 +15,7 @@ const CartItem = ({item}) => {
   return (
     <div className='flex items-center p-2 md:p-5 justify-between mt-2 mb-2 md:mx-5'>
         <div className='w-[30%]'>
-            <img src={item.image} />
+            <img src={item.image} alt='item-image'/>
         </div>
         <div className='md:ml-10 self-start space-y-5 w-[100%] md:w-[70%]'>
             <p className='text-xl text-slate-700 font-bold'>{item.title}</p>
