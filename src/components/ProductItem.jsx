@@ -22,7 +22,7 @@ const ProductItem = ({item}) => {
         <p className="text-gray-700 font-bold text-lg text-left truncate w-40 mt-1 tracking-wider">{item.title}</p>
         <p className="w-40 text-gray-400 font-normal text-[10px] text-left">{item.description.split(" ").slice(0,10).join(" ")+"...."}</p>
         <div className='h-[180px]'>
-          <img src={item.image} alt='item-image' className='w-full h-full'/>
+          <img src={item.image} alt='product' className='w-full h-full'/>
         </div>
         <div className="flex justify-between gap-12 items-center w-full mt-5">
             <p className="text-green-600 font-bold">${item.price}</p>
