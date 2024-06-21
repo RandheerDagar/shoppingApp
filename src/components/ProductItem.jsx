@@ -27,7 +27,7 @@ const ProductItem = ({item}) => {
         <div className="flex justify-between gap-12 items-center w-full mt-5">
             <p className="text-green-600 font-bold">${item.price}</p>
             {
-                cart.some((p)=>p.id==item.id)?
+                cart.some((p)=>p.id===item.id)?
                 (<button onClick={removeFromCart} className="text-gray-700 border-2 border-gray-700 rounded-full font-bold 
                 text-[12px] p-1 px-3 uppercase 
                 hover:bg-gray-700

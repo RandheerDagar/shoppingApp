@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { Store } from './redux/Store';
 import { Provider } from 'react-redux';
-import { ToastContainer } from 'react-toastify';
+//import { ToastContainer } from 'react-toastify';
 import { Toaster } from 'react-hot-toast';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
