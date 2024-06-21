@@ -36,7 +36,7 @@ const Home = () => {
             (<div className="grid  xs:gridcols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto space-y-10 space-x-5 min-h-[80vh]">
                 {
                     items.map((item)=>(
-                        <ProductItem key={item.id} item={item}/>
+                        <ProductItem key={item.id} item={item} /> 
                     ))
                 }
             </div>):
